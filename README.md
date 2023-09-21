@@ -1,5 +1,6 @@
 # FVL Angular
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a53dad73941440d1872964b9b2003dbe)](https://app.codacy.com/gh/lichodev/fvl-angular?utm_source=github.com&utm_medium=referral&utm_content=lichodev/fvl-angular&utm_campaign=Badge_Grade)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/26091661-1508-4eb4-8063-b57e40b7f2ed/deploy-status)](https://app.netlify.com/sites/fvl-angular/deploys)
 
 [![codecov](https://codecov.io/gh/lichodev/fvl-angular/graph/badge.svg?token=CTG67OCIMA)](https://codecov.io/gh/lichodev/fvl-angular)
