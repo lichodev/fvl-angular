@@ -27,7 +27,7 @@ module.exports = function (config) {
     coverageReporter: {
       dir: require("path").join(__dirname, "./coverage/fvl-angular"),
       subdir: ".",
-      reporters: [{ type: "text", file: "coverage.txt" }],
+      reporters: [{ type: "cobertura" }],
     },
     reporters: ["progress", "kjhtml"],
     port: 9876,
