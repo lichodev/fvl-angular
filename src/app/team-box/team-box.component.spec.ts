@@ -1,24 +1,28 @@
 import { HttpClientModule } from '@angular/common/http';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavBarComponent } from './nav-bar.component';
+import { TeamBoxComponent } from './team-box.component';
 
-describe('NavBarComponent', () => {
-  let component: NavBarComponent;
-  let fixture: ComponentFixture<NavBarComponent>;
+describe('TeamBoxComponent', () => {
+  let component: TeamBoxComponent;
+  let fixture: ComponentFixture<TeamBoxComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NavBarComponent],
+      declarations: [TeamBoxComponent],
       imports: [HttpClientModule],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(NavBarComponent);
+    fixture = TestBed.createComponent(TeamBoxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('must have a valid flag api with https', () => {
+    expect(component.flagsEndpoint).toMatch(/https:\/\/.*\.*/);
   });
 });
