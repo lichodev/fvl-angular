@@ -11,7 +11,7 @@ import { TeamModalService } from '../team-modal.service';
 export class TeamBoxComponent implements OnInit {
   data: Team | null = null;
   matchs: Match[] = [];
-  flagsEndpoint = 'https://flagcdn.com/h20';
+  flagsEndpoint = 'https://fakecdn.com/h20';
 
   constructor(private teamModalService: TeamModalService) {}
 
